@@ -13,7 +13,7 @@ var easyButton = document.querySelector("#easyButton");
 var hardButton = document.querySelector("#hardButton");
 //Functions
 function randbw (a,b) {
-	value = Math.floor(Math.random() * (b - a + 1) + a );
+	value = Math.floor(Math.random() * (b-a) + a + 1);
 	return value ;
 };
 function numGen () {
