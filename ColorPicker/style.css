@@ -13,11 +13,7 @@ h1 {
 	padding: 20px 0;
 	margin: 0;
 	display: inline-block;
-}
-
-#top {
-	text-align: center;
-	background-color: steelblue ;
+	background-color: steelblue;
 }
 
 #displayColor {
