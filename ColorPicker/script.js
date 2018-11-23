@@ -4,6 +4,7 @@ var colors = [];
 var num;
 var pickedColor;
 var clickedColor;
+var top = document.querySelector("#top");
 var squares = document.querySelectorAll(".square");
 var response = document.querySelector("#response");
 var h1 = document.querySelector("h1");
@@ -70,7 +71,7 @@ function reset () {
 };
 function gameWon () {
 	response.textContent = "Well Done";
-	h1.style.backgroundColor = pickedColor;
+	top.style.backgroundColor = pickedColor;
 	resetButton.textContent = "Another Game";	
 	for (var j=0; j< num; j++) {
 		squares[j].style.backgroundColor = pickedColor;
