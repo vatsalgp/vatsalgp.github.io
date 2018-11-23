@@ -71,7 +71,7 @@ function reset () {
 };
 function gameWon () {
 	response.textContent = "Well Done";
-	top.style.backgroundColor = pickedColor;
+	h1.style.backgroundColor = pickedColor;
 	resetButton.textContent = "Another Game";	
 	for (var j=0; j< num; j++) {
 		squares[j].style.backgroundColor = pickedColor;
