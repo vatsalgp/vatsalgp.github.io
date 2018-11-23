@@ -7,12 +7,17 @@ body {
 h1 {
 	text-align: center;
 	color: white;
-	background-color: steelblue ;
-	margin : 0;
 	font-weight: normal; 
 	text-transform: uppercase;
 	line-height: 1.1;
 	padding: 20px 0;
+	margin: 0;
+	display: inline-block;
+}
+
+#top {
+	text-align: center;
+	background-color: steelblue ;
 }
 
 #displayColor {
@@ -26,6 +31,7 @@ h1 {
 }
 
 #container {
+	width: 75%;
 	max-width: 600px;
 	margin: 20px auto;
 }
