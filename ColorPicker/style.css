@@ -1,6 +1,6 @@
 body {
 	background-color: #232323 ;
-	margin : 0; 
+	margin : 0;
 	font-family: 'Montserrat';
 }
 
@@ -9,7 +9,7 @@ h1 {
 	color: white;
 	background-color: steelblue ;
 	margin : 0;
-	font-weight: normal; 
+	font-weight: normal;
 	text-transform: uppercase;
 	line-height: 1.1;
 	padding: 20px 0;
@@ -30,9 +30,21 @@ h1 {
 	margin: 20px auto;
 }
 
+#R{
+	color:#ff0000;
+}
+
+#G{
+	color:#00ff00;
+}
+
+#B{
+	color:#0000ff;
+}
+
 .square {
 	background-color: purple;
-	width: 30%;	
+	width: 30%;
 	float: left;
 	margin: 1.66%;
 	padding-bottom: 30%;
