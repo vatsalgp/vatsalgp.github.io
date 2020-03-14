@@ -2,6 +2,7 @@ ul {
 	list-style: none;
 }
 
-a {
+li a {
 	font-family: "Architects Daughter";
+	font-size: large;
 }
