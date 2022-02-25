@@ -1,0 +1,9 @@
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+li a {
+	font-family: "Architects Daughter";
+	font-size: xx-large;
+}
