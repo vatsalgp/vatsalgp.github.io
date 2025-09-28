@@ -8,7 +8,6 @@ li a {
 	font-size: xx-large;
 }
 
-/* About me content styling - extend to right only */
 .about-me-content {
 	padding: 10px 0;
 	margin-right: -200px;
