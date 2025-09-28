@@ -24,42 +24,6 @@ li a {
 	margin-bottom: 10px;
 }
 
-/* Mobile optimization*/
-@media screen and (max-width: 480px) {
-	.about-me-content {
-		margin-right: 0;
-		padding: 8px;
-	}
-	
-	.about-me-content p {
-		font-size: large;
-		line-height: 1.5;
-		text-align: justify;
-		margin-top: 0;
-		margin-bottom: 8px;
-	}
-	
-	.navigation {
-		margin-top: 20px;
-		padding-top: 15px;
-		text-align: center;
-	}
-	
-	.navigation .button {
-		color: #2879d0;
-		font-size: large;
-		display: inline-block;
-		padding: 10px 20px;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-	
-	.navigation .button:hover {
-		text-decoration: underline;
-	}
-}
-
-/* Navigation styling */
 .navigation {
 	margin-top: 20px;
 	padding-top: 20px;
@@ -78,4 +42,41 @@ li a {
 
 .navigation .button:hover {
 	text-decoration: underline;
+}
+
+/* Mobile optimization*/
+@media screen and (max-width: 480px) {
+	.about-me-content {
+		padding: 8px;
+		margin-right: 0;
+	}
+	
+	.about-me-content p {
+		font-family: "Avenir Next", system-ui, sans-serif;
+	 	font-size: large;
+		line-height: 1.5;
+		color: #333;
+		text-align: justify;
+		margin-top: 0;
+		margin-bottom: 8px;
+	}
+	
+	.navigation {
+		margin-top: 20px;
+		padding-top: 15px;
+		text-align: left;
+	}
+	
+	.navigation .button {
+		color: #2879d0;
+		font-size: large;
+		display: inline-block;
+		padding: 10px 20px;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+	
+	.navigation .button:hover {
+		text-decoration: underline;
+	}
 }
