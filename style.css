@@ -9,7 +9,7 @@ li a {
 }
 
 .about-me-content {
-	padding: 10px 0;
+	padding: 15px 0;
 	margin-right: -200px;
 }
 
@@ -20,11 +20,11 @@ li a {
 	color: #333;
 	text-align: justify;
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .navigation {
-	margin-top: 20px;
+	margin-top: 25px;
 	padding-top: 20px;
 	border-top: 1px solid #efefef;
 	text-align: left;
@@ -35,47 +35,81 @@ li a {
 	text-decoration: none;
 	font-size: x-large;
 	font-weight: normal;
-	padding-left: 0;
-	margin-left: 0;
+	padding: 8px 0;
+	display: inline-block;
+	white-space: nowrap;
 }
 
 .navigation .button:hover {
 	text-decoration: underline;
 }
 
-/* Mobile optimization*/
-@media screen and (max-width: 480px) {
+/* Tablet styles (768px to 1024px) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
 	.about-me-content {
-		padding: 8px;
-		margin-right: 0;
+		margin-right: -100px;
+		padding: 12px 0;
 	}
 	
 	.about-me-content p {
-		font-family: "Avenir Next", system-ui, sans-serif;
-	 	font-size: large;
+		font-size: large;
 		line-height: 1.5;
-		color: #333;
+		margin-bottom: 12px;
+	}
+	
+	.navigation .button {
+		font-size: large;
+	}
+}
+
+/* Small tablet/large phone styles (481px to 768px) */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+	.about-me-content {
+		margin-right: 0;
+		padding: 10px 15px;
+	}
+	
+	.about-me-content p {
+		font-size: large;
+		line-height: 1.5;
 		text-align: justify;
-		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	.navigation {
+		text-align: center;
+		margin-top: 20px;
+		padding-top: 15px;
+	}
+	
+	.navigation .button {
+		font-size: large;
+		padding: 10px 15px;
+	}
+}
+
+/* Mobile phone styles (up to 480px) */
+@media screen and (max-width: 480px) {
+	.about-me-content {
+		margin-right: 0;
+		padding: 8px 12px;
+	}
+	
+	.about-me-content p {
+		font-size: medium;
+		line-height: 1.4;
+		text-align: justify;
 		margin-bottom: 8px;
 	}
 	
 	.navigation {
-		margin-top: 20px;
-		padding-top: 15px;
 		text-align: left;
+		margin-top: 15px;
+		padding-top: 12px;
 	}
 	
 	.navigation .button {
-		color: #2879d0;
-		font-size: large;
-		display: inline-block;
-		padding: 10px 20px;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-	
-	.navigation .button:hover {
-		text-decoration: underline;
+		font-size: medium;
+		padding: 8px 12px;
 	}
 }
