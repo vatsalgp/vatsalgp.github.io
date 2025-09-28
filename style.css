@@ -7,3 +7,39 @@ li a {
 	font-family: "Architects Daughter";
 	font-size: xx-large;
 }
+
+/* About me content styling - extend to right only */
+.about-me-content {
+	padding: 20px 0;
+	margin-right: -200px;
+}
+
+.about-me-content p {
+	font-family: "Avenir Next", system-ui, sans-serif;
+	font-size: x-large;
+	line-height: 1.6;
+	color: #333;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+/* Navigation styling */
+.navigation {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid #efefef;
+	text-align: left;
+}
+
+.navigation .button {
+	color: #2879d0;
+	text-decoration: none;
+	font-size: x-large;
+	font-weight: normal;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.navigation .button:hover {
+	text-decoration: underline;
+}
