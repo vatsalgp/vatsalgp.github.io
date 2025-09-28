@@ -1,0 +1,33 @@
+{
+  "name": "vatsalgp-github-io",
+  "version": "1.0.0",
+  "description": "Personal website and portfolio for Vatsal Gupta",
+  "scripts": {
+    "dev": "bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve --host 0.0.0.0",
+    "serve:drafts": "bundle exec jekyll serve --drafts",
+    "serve:incremental": "bundle exec jekyll serve --incremental",
+    "clean": "bundle exec jekyll clean",
+    "install": "bundle install --path vendor/bundle",
+    "update": "bundle update",
+    "doctor": "bundle exec jekyll doctor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vatsalgp/vatsalgp.github.io.git"
+  },
+  "author": "Vatsal Gupta",
+  "license": "MIT",
+  "homepage": "https://vatsalgp.com",
+  "keywords": [
+    "portfolio",
+    "website",
+    "jekyll",
+    "github-pages"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
